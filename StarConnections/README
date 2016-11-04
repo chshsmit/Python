@@ -1,0 +1,23 @@
+//This program finds the 6-degrees of seperation between actors as well as finding
+//the number of actors at each degree of seperation for a given actor.
+
+
+Files Incuded:
+README
+graph_toolz.py
+six-degrees.py
+thespians-cleaned.txt
+
+
+//In order to find the shortest path between two actors run by typing:
+	'python3 six-degrees.py path thespians-cleaned.txt 1000'
+
+
+//In order to find the number of actors at each degree of seperation for a given
+//actor type:
+	'python3 six-degrees.py bfs thespians-cleaned.txt 1000'
+
+
+//This program implements a graph data structure and uses Depth First and Breadth
+//first search in order to find the shortest path and the number of actors at
+//each degree of seperation.
