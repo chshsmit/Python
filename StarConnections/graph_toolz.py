@@ -1,5 +1,3 @@
-#HW7 
-#by Christopher Smith: chshsmit and Celine Pena: cnpena
 
 import os
 import sys
